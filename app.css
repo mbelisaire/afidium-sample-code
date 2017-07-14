@@ -1,0 +1,108 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+/* Image background */
+.bg {
+    background-image: url('https://source.unsplash.com/MTYGPQoADY8');
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-filter: brightness(70%) blur(2px); /* Safari 6.0 - 9.0 */
+    filter: brightness(70%) blur(2px);
+}
+
+/* Content hidden by default */
+#content {
+    display: none;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    height: calc(100vh - 10px);
+    overflow-y: auto;
+}
+
+#content .selected {
+    background-color : #449D44;
+}
+
+/* Alternative journeys hidden by default */
+.other {
+    display: none;
+}
+
+/* Loader */
+#loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    margin: -75px 0 0 -75px;
+    border: 10px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 10px solid #3498db;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Animation, slide from the bottom, at content display */
+.animate-bottom {
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 1s;
+    animation-name: animatebottom;
+    animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+    from { bottom:-100px; opacity:0 }
+    to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom {
+    from{ bottom:-100px; opacity:0 }
+    to{ bottom:0; opacity:1 }
+}
+
+div {
+    padding-bottom: 10px;
+}
+
+#content .table-responsive {
+    border: none;
+}
+
+#content td {
+    border: none;
+}
+
+table td:nth-of-type(1) {
+    min-width: 70px;
+}
+
+hr {
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.3);
+}
+
+.highlighted {
+    font-size: 150%;
+}
+
+#content .btn-success:focus {
+    outline: none;
+}

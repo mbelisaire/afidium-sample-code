@@ -1,0 +1,611 @@
+{
+  "error": false,
+  "code": 200,
+  "message": null,
+  "data": {
+    "key": "air_GALILEO_68350",
+    "booking": {
+      "total": 90207,
+      "segment": {
+        "SE_1": {
+          "xId": "Q_1.S_1",
+          "journey": [
+            "SI_1-2"
+          ],
+          "§docjourney": "list of alternatives for this journey.",
+          "seat": [
+            "Q"
+          ],
+          "SI_1-2": {
+            "duration": {
+              "minutes": 1660
+            },
+            "sector": [
+              {
+                "begin": "2017-11-05T20:20:00",
+                "end": "2017-11-06T14:40:00",
+                "duration": {
+                  "minutes": 680
+                },
+                "from": "CDG",
+                "to": "PVG",
+                "carrier": {
+                  "code": "MU"
+                },
+                "flight": "570",
+                "aircraft": "332",
+                "seat": {
+                  "Q": {
+                    "max": 9,
+                    "status": "Available"
+                  }
+                },
+                "durationStop": {
+                  "minutes": 340
+                }
+              },
+              {
+                "begin": "2017-11-06T20:20:00",
+                "end": "2017-11-07T10:00:00",
+                "duration": {
+                  "minutes": 640
+                },
+                "from": "PVG",
+                "to": "SYD",
+                "carrier": {
+                  "code": "MU"
+                },
+                "flight": "561",
+                "aircraft": "332",
+                "seat": {
+                  "Q": {
+                    "max": 9,
+                    "status": "Available"
+                  }
+                }
+              }
+            ],
+            "from": "CDG",
+            "begin": "2017-11-05T20:20:00",
+            "to": "SYD",
+            "end": "2017-11-07T10:00:00",
+            "stop": "1 stop(s)",
+            "via": [
+              "PVG"
+            ],
+            "durationStop": {
+              "minutes": 340
+            },
+            "carrier": [
+              {
+                "code": "MU"
+              }
+            ]
+          }
+        },
+        "SE_2": {
+          "xId": "Q_1.S_2",
+          "journey": [
+            "SI_2-2",
+            "SI_2-13",
+            "SI_2-14"
+          ],
+          "§doc:journey": "list of alternatives for this journey.",
+          "seat": [
+            "Q"
+          ],
+          "SI_2-2": {
+            "duration": {
+              "minutes": 1650
+            },
+            "sector": [
+              {
+                "begin": "2017-12-13T12:00:00",
+                "end": "2017-12-13T19:20:00",
+                "duration": {
+                  "minutes": 620
+                },
+                "from": "SYD",
+                "to": "PVG",
+                "carrier": {
+                  "code": "MU"
+                },
+                "flight": "562",
+                "aircraft": "332",
+                "seat": {
+                  "Q": {
+                    "max": 9,
+                    "status": "Available"
+                  }
+                },
+                "durationStop": {
+                  "minutes": 285
+                }
+              },
+              {
+                "begin": "2017-12-14T00:05:00",
+                "end": "2017-12-14T05:30:00",
+                "duration": {
+                  "minutes": 745
+                },
+                "from": "PVG",
+                "to": "CDG",
+                "carrier": {
+                  "code": "MU"
+                },
+                "flight": "553",
+                "aircraft": "332",
+                "seat": {
+                  "Q": {
+                    "max": 9,
+                    "status": "Available"
+                  }
+                }
+              }
+            ],
+            "from": "SYD",
+            "begin": "2017-12-13T12:00:00",
+            "to": "CDG",
+            "end": "2017-12-14T05:30:00",
+            "stop": "1 stop(s)",
+            "via": [
+              "PVG"
+            ],
+            "durationStop": {
+              "minutes": 285
+            },
+            "carrier": [
+              {
+                "code": "MU"
+              }
+            ]
+          },
+          "SI_2-13": {
+            "duration": {
+              "minutes": 1835
+            },
+            "sector": [
+              {
+                "begin": "2017-12-13T21:30:00",
+                "end": "2017-12-14T05:00:00",
+                "duration": {
+                  "minutes": 630
+                },
+                "from": "SYD",
+                "to": "PVG",
+                "carrier": {
+                  "code": "MU"
+                },
+                "flight": "736",
+                "aircraft": "332",
+                "seat": {
+                  "Q": {
+                    "max": 9,
+                    "status": "Available"
+                  }
+                },
+                "durationStop": {
+                  "minutes": 450
+                }
+              },
+              {
+                "begin": "2017-12-14T12:30:00",
+                "end": "2017-12-14T18:05:00",
+                "duration": {
+                  "minutes": 755
+                },
+                "from": "PVG",
+                "to": "CDG",
+                "carrier": {
+                  "code": "MU"
+                },
+                "flight": "569",
+                "aircraft": "332",
+                "seat": {
+                  "Q": {
+                    "max": 9,
+                    "status": "Available"
+                  }
+                }
+              }
+            ],
+            "from": "SYD",
+            "begin": "2017-12-13T21:30:00",
+            "to": "CDG",
+            "end": "2017-12-14T18:05:00",
+            "stop": "1 stop(s)",
+            "via": [
+              "PVG"
+            ],
+            "durationStop": {
+              "minutes": 450
+            },
+            "carrier": [
+              {
+                "code": "MU"
+              }
+            ]
+          },
+          "SI_2-14": {
+            "duration": {
+              "minutes": 2405
+            },
+            "sector": [
+              {
+                "begin": "2017-12-13T12:00:00",
+                "end": "2017-12-13T19:20:00",
+                "duration": {
+                  "minutes": 620
+                },
+                "from": "SYD",
+                "to": "PVG",
+                "carrier": {
+                  "code": "MU"
+                },
+                "flight": "562",
+                "aircraft": "332",
+                "seat": {
+                  "Q": {
+                    "max": 9,
+                    "status": "Available"
+                  }
+                },
+                "durationStop": {
+                  "minutes": 1030
+                }
+              },
+              {
+                "begin": "2017-12-14T12:30:00",
+                "end": "2017-12-14T18:05:00",
+                "duration": {
+                  "minutes": 755
+                },
+                "from": "PVG",
+                "to": "CDG",
+                "carrier": {
+                  "code": "MU"
+                },
+                "flight": "569",
+                "aircraft": "332",
+                "seat": {
+                  "Q": {
+                    "max": 9,
+                    "status": "Available"
+                  }
+                }
+              }
+            ],
+            "from": "SYD",
+            "begin": "2017-12-13T12:00:00",
+            "to": "CDG",
+            "end": "2017-12-14T18:05:00",
+            "stop": "1 stop(s)",
+            "via": [
+              "PVG"
+            ],
+            "durationStop": {
+              "minutes": 1030
+            },
+            "carrier": [
+              {
+                "code": "MU"
+              }
+            ]
+          }
+        }
+      },
+      "§doc:segment1": "list of segments for this booking.",
+      "§doc:segment2": "A segment can contain only one journey : it means that only 1 journey have been found. No alternatives",
+      "§doc:segment3": "A segment can contain several journeys : it means that several alternatives have been found. The client have to choose one. The first one is choosen by default."
+    },
+    "dictionary": {
+      "airport": {
+        "CDG": {
+          "airport": {
+            "code": "CDG",
+            "name": "Aéroport international de Charles De Gaulle"
+          },
+          "city": {
+            "code": "PAR",
+            "name": "Paris"
+          },
+          "country": {
+            "code": "FR",
+            "name": "France"
+          }
+        },
+        "HEL": {
+          "airport": {
+            "code": "HEL",
+            "name": "Aéroport de Helsinki"
+          },
+          "city": {
+            "code": "HEL",
+            "name": "Helsinki"
+          },
+          "country": {
+            "code": "FI",
+            "name": "Finlande"
+          }
+        },
+        "SIN": {
+          "airport": {
+            "code": "SIN",
+            "name": "Aéroport international de Changi"
+          },
+          "city": {
+            "code": "SIN",
+            "name": "Singapour"
+          },
+          "country": {
+            "code": "SG",
+            "name": "Singapour"
+          }
+        },
+        "SYD": {
+          "airport": {
+            "code": "SYD",
+            "name": "Aéroport de Kingsford Smith"
+          },
+          "city": {
+            "code": "SYD",
+            "name": "Sydney"
+          },
+          "country": {
+            "code": "AU",
+            "name": "Australie"
+          }
+        },
+        "PVG": {
+          "airport": {
+            "code": "PVG",
+            "name": "Aéroport international de Pudong"
+          },
+          "city": {
+            "code": "SHA",
+            "name": "Shanghai"
+          },
+          "country": {
+            "code": "CN",
+            "name": "Chine"
+          }
+        },
+        "ICN": {
+          "airport": {
+            "code": "ICN",
+            "name": "Aéroport international d'Incheon"
+          },
+          "city": {
+            "code": "SEL",
+            "name": "Séoul"
+          },
+          "country": {
+            "code": "KR",
+            "name": "République de Corée"
+          }
+        },
+        "ORD": {
+          "airport": {
+            "code": "ORD",
+            "name": "Aéroport international O'Hare"
+          },
+          "city": {
+            "code": "CHI",
+            "name": "Chicago"
+          },
+          "country": {
+            "code": "US",
+            "name": "États-Unis"
+          }
+        },
+        "LAX": {
+          "airport": {
+            "code": "LAX",
+            "name": "Aéroport international de Los Angeles"
+          },
+          "city": {
+            "code": "LAX",
+            "name": "Los Angeles"
+          },
+          "country": {
+            "code": "US",
+            "name": "États-Unis"
+          }
+        },
+        "ORY": {
+          "airport": {
+            "code": "ORY",
+            "name": "Aéroport d'Orly"
+          },
+          "city": {
+            "code": "PAR",
+            "name": "Paris"
+          },
+          "country": {
+            "code": "FR",
+            "name": "France"
+          }
+        },
+        "JFK": {
+          "airport": {
+            "code": "JFK",
+            "name": "Aéroport international John F. Kennedy"
+          },
+          "city": {
+            "code": "NYC",
+            "name": "New York"
+          },
+          "country": {
+            "code": "US",
+            "name": "États-Unis"
+          }
+        },
+        "LHR": {
+          "airport": {
+            "code": "LHR",
+            "name": "Aéroport de Heathrow"
+          },
+          "city": {
+            "code": "LON",
+            "name": "London"
+          },
+          "country": {
+            "code": "GB",
+            "name": "Royaume-Uni"
+          }
+        },
+        "BKK": {
+          "airport": {
+            "code": "BKK",
+            "name": "Aéroport international de Suvarnabhumi"
+          },
+          "city": {
+            "code": "BKK",
+            "name": "Bangkok"
+          },
+          "country": {
+            "code": "TH",
+            "name": "Thaïlande"
+          }
+        },
+        "DOH": {
+          "airport": {
+            "code": "DOH",
+            "name": "Aéroport international de Doha"
+          },
+          "city": {
+            "code": "DOH",
+            "name": "Doha"
+          },
+          "country": {
+            "code": "QA",
+            "name": "Qatar"
+          }
+        },
+        "DFW": {
+          "airport": {
+            "code": "DFW",
+            "name": "Aéroport international de Dallas Ft Worth"
+          },
+          "city": {
+            "code": "DFW",
+            "name": "Dallas"
+          },
+          "country": {
+            "code": "US",
+            "name": "États-Unis"
+          }
+        }
+      },
+      "carrier": {
+        "AY": {
+          "code": "AY",
+          "name": "Finnair"
+        },
+        "QF": {
+          "code": "QF",
+          "name": "Qantas Airways"
+        },
+        "MU": {
+          "code": "MU",
+          "name": "China Eastern Airlines"
+        },
+        "KE": {
+          "code": "KE",
+          "name": "Korean Air lines Co Ltd"
+        },
+        "AA": {
+          "code": "AA",
+          "name": "American Airlines"
+        },
+        "BA": {
+          "code": "BA",
+          "name": "British Airways"
+        },
+        "TG": {
+          "code": "TG",
+          "name": "Thai Airways Intl Public Co Lt"
+        },
+        "SQ": {
+          "code": "SQ",
+          "name": "Singapore Airlines"
+        },
+        "AF": {
+          "code": "AF",
+          "name": "Air France"
+        },
+        "QR": {
+          "code": "QR",
+          "name": "Qatar Airways (Q.C.S.C)"
+        }
+      },
+      "aircraft": {
+        "319": {
+          "code": "319",
+          "name": "Airbus Industrie A319"
+        },
+        "320": {
+          "code": "320",
+          "name": "Airbus Industrie A320-100/200"
+        },
+        "332": {
+          "code": "332",
+          "name": "Airbus Industrie A330-200"
+        },
+        "333": {
+          "code": "333",
+          "name": "Airbus Industrie A330-300"
+        },
+        "359": {
+          "code": "359",
+          "name": "Airbus Industries A350-900"
+        },
+        "380": {
+          "code": "380",
+          "name": "Airbus Industrie A380"
+        },
+        "388": {
+          "code": "388",
+          "name": "Airbus Industrie A380-800 Pax"
+        },
+        "744": {
+          "code": "744",
+          "name": "Boeing 747-400"
+        },
+        "747": {
+          "code": "747",
+          "name": "Boeing 747"
+        },
+        "757": {
+          "code": "757",
+          "name": "Boeing 757-200"
+        },
+        "772": {
+          "code": "772",
+          "name": "Boeing 777-200"
+        },
+        "777": {
+          "code": "777",
+          "name": "Boeing 777"
+        },
+        "788": {
+          "code": "788",
+          "name": "Boeing 787-8 Dreamliner"
+        },
+        "789": {
+          "code": "789",
+          "name": "Boeing 787-9 Dreamliner"
+        },
+        "32B": {
+          "code": "32B",
+          "name": "Airbus Industrie A321 (Sharklets)"
+        },
+        "77W": {
+          "code": "77W",
+          "name": "Boeing 777-300ER"
+        }
+      }
+    }
+  },
+  "§DANGER": "Please don't mofify this document, it is used by several persons."
+}
